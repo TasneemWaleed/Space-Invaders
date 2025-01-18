@@ -1,29 +1,26 @@
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 5.0. Tested on both Windows 10 and Windows 11.
+# Space Invader Game
+Space Invader is a classic arcade game where the player must defend Earth from an alien invasion. 
+The goal is to destroy all the aliens while avoiding their laser attacks.
+The player controls a spaceship that can move left and right and shoot lasers to eliminate the alien invaders.
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
+# How to Play
+1. Movement:
+   - Use the left and right arrow keys to move your spaceship across the screen.
+2. Shooting:
+   - Press the Spacebar to shoot lasers from your spaceship towards the aliens.
+3. Avoiding Alien Lasers:
+   - Aliens shoot lasers towards your spaceship. You must avoid these lasers by moving left or right and hiding under obstacles.
+4. Obstacles:
+   - There are obstacles that can provide cover. Use these to protect yourself from the alien lasers.
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
 
-# Video Tutorial
+# Game Rules
+- You must destroy all the aliens before they reach the bottom of the screen.
+- If an alien hits your spaceship with a laser, you lose a life.
+- The game ends when you lose all your lives or successfully defeat all the aliens.
+- The aliens will gradually increase in speed as the game progresses, making it more challenging.
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
-
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
-
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.educ8s.tv">My Website</a> | <br>
-</p>
+# Controls
+- Spacebar: Fire laser
+- Left Arrow: Move left
+- Right Arrow: Move right
